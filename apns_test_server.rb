@@ -19,5 +19,5 @@ EventMachine.run {
   Signal.trap("INT")  { EventMachine.stop }
   Signal.trap("TERM") { EventMachine.stop }
 
-  EventMachine.start_server "0.0.0.0", 1337, ApnsServer
+  EventMachine.start_server "0.0.0.0", 2195, ApnsServer
 }
